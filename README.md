@@ -65,25 +65,30 @@ Make sure you have the following installed:
 
 - **Node.js (v18 LTS recommended)**
 - npm (comes with Node.js)
-```md
+  
 Check versions:
 ```bash
 node -v
 npm -v
+```
 
 
 
 ###🖥️ Frontend Setup (Client)
+```
 cd client
 npm install
 npm run dev
 Open the application in your browser:
 http://localhost:5173
+```
 
 ##🛠️ Backend Setup (Server)
+```
 cd server
 npm install
 npm run dev
+```
 
 
 ##🔗 API Usage
