@@ -121,7 +121,7 @@ npm test
 - As a learning assistant while developing and testing the application
 
 ### Reflection on AI Impact
-- AI tools helped improve productivity by:
+AI tools helped improve productivity by:
 - Reducing time spent on debugging setup issues
 - Helping me understand errors instead of applying blind fixes
 - Improving code quality and documentation clarity
