@@ -74,7 +74,7 @@ npm -v
 
 
 
-###🖥️ Frontend Setup (Client)
+🖥️ Frontend Setup (Client)
 ```
 cd client
 npm install
@@ -91,11 +91,11 @@ npm run dev
 ```
 
 
-##🔗 API Usage
+🔗 API Usage
 The frontend communicates with the backend using RESTful APIs exposed by the server.
 All core business logic is handled on the backend, while the frontend focuses on user interaction.
 
-##🧪 Test Report
+🧪 Test Report
 Backend Testing
 Automated tests are implemented to validate backend logic and API functionality.
 Run tests using:
@@ -107,18 +107,18 @@ Test Results
 
 
 
-##🤖 My AI Usage
-###AI Tools Used
+🤖 My AI Usage
+AI Tools Used
 ChatGPT (OpenAI)
 
-###How I Used AI
+How I Used AI
 To understand Git and GitHub workflows
 To debug runtime and environment issues
 To clarify Node.js, Vite, and TypeScript errors
 To improve documentation structure and clarity
 As a learning assistant while developing and testing the application
 
-###Reflection on AI Impact
+Reflection on AI Impact
 AI tools helped improve productivity by:
 Reducing time spent on debugging setup issues
 Helping me understand errors instead of applying blind fixes
