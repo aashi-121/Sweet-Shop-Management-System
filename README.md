@@ -1,62 +1,127 @@
-# Sweet Shop Management System 🍭
+# 🍬 Sweet Shop Management System
 
-A full-stack application for managing a sweet shop inventory, including user authentication, browsing sweets, and administrative dashboard for stock management.
+A full-stack **Sweet Shop Management System** built with a modern frontend and a robust backend.  
+This project was developed as part of an assessment to demonstrate full-stack development skills, clean project structure, testing, and responsible use of AI tools.
 
-## 🛠️ Technology Stack
+---
 
-### Backend (`/server`)
-*   **Runtime**: Node.js
-*   **Language**: TypeScript
-*   **Framework**: Express.js
-*   **Database**: SQLite (local file database)
-*   **ORM**: Drizzle ORM
-*   **Authentication**: JWT (JSON Web Tokens)
-*   **Validation**: Zod
-*   **Testing**: Jest, Supertest
+## 📌 Project Overview
 
-### Frontend (`/client`)
-*   **Framework**: React (v18)
-*   **Build Tool**: Vite
-*   **Language**: TypeScript
-*   **Styling**: Modern CSS (Glassmorphism, CSS Variables, Responsive Grid)
-*   **Routing**: React Router v6
-*   **State Management**: React Context API
-*   **HTTP Client**: Axios
+The **Sweet Shop Management System** helps manage sweets in a shop environment by providing a frontend interface and a backend service to handle data operations.  
+The application follows a clean separation of concerns with independent frontend and backend modules.
+
+---
 
 ## ✨ Features
-*   **User Authentication**: Secure Register and Login flows.
-*   **Sweets Catalog**: Browse available sweets with search and price filtering.
-*   **Admin Dashboard**: Protected route for Admins to Add, Edit, Delete, and Restock sweets.
-*   **Inventory Management**: Real-time stock updates upon purchase.
-*   **Purchase History**: Track past orders (Database implemented).
-*   **Responsive Design**: Mobile-friendly UI with separate views for Users and Admins.
 
-## 🚀 Getting Started
+- Full-stack application with separate client and server
+- Modern frontend built using **Vite + React**
+- Backend built using **Node.js and TypeScript**
+- Lightweight database using **SQLite**
+- RESTful API architecture
+- Automated backend testing
+- Clean Git and project structure
 
-### Prerequisites
-*   Node.js (v18+)
-*   npm
+---
 
-### Installation & Running
+## 🧱 Project Structure
 
-**1. Backend**
+sweet-shop-kata
+├── client # Frontend (React + Vite)
+├── server # Backend (Node.js + TypeScript)
+└── README.md
+
+
+
+---
+
+## ⚙️ Tech Stack
+
+### Frontend
+- React
+- Vite
+- TypeScript
+- HTML
+- CSS
+
+### Backend
+- Node.js
+- TypeScript
+- Express
+- SQLite (better-sqlite3)
+
+### Tools & Platforms
+- Git & GitHub
+- npm
+- VS Code
+
+---
+
+## 🚀 How to Run the Project Locally
+
+### 🔹 Prerequisites
+
+Make sure you have the following installed:
+
+- **Node.js (v18 LTS recommended)**
+- npm (comes with Node.js)
+
+Check versions:
 ```bash
-cd server
-npm install
-npm run db:push  # Initialize Database
-npm run dev      # Start Server on port 3000
-```
+node -v
+npm -v
 
-**2. Frontend**
-```bash
+
+
+🖥️ Frontend Setup (Client)
 cd client
 npm install
-npm run dev      # Start Client on port 5173
-```
+npm run dev
+Open the application in your browser:
+http://localhost:5173
 
-**3. Verification**
-Run backend tests:
-```bash
+🛠️ Backend Setup (Server)
+cd server
+npm install
+npm run dev
+
+
+🔗 API Usage
+The frontend communicates with the backend using RESTful APIs exposed by the server.
+All core business logic is handled on the backend, while the frontend focuses on user interaction.
+
+🧪 Test Report
+Backend Testing
+Automated tests are implemented to validate backend logic and API functionality.
+Run tests using:
 cd server
 npm test
-```
+Test Results
+✅ All test cases passed successfully
+✅ Core functionality verified
+
+📸 Screenshots
+![b4bbad7f-b355-4276-ae9f-2c3f6706d79c](https://github.com/user-attachments/assets/7b076d24-889c-4d24-8528-3c924a0e07c2)
+
+
+🤖 My AI Usage
+AI Tools Used
+ChatGPT (OpenAI)
+
+How I Used AI
+To understand Git and GitHub workflows
+To debug runtime and environment issues
+To clarify Node.js, Vite, and TypeScript errors
+To improve documentation structure and clarity
+As a learning assistant while developing and testing the application
+
+Reflection on AI Impact
+AI tools helped improve productivity by:
+Reducing time spent on debugging setup issues
+Helping me understand errors instead of applying blind fixes
+Improving code quality and documentation clarity
+
+All implementation decisions were reviewed and understood by me, and the final project reflects my own learning and problem-solving process.
+
+👤 Author
+Aashi Sharma
