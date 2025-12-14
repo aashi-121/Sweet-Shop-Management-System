@@ -65,7 +65,7 @@ Make sure you have the following installed:
 
 - **Node.js (v18 LTS recommended)**
 - npm (comes with Node.js)
-
+```md
 Check versions:
 ```bash
 node -v
