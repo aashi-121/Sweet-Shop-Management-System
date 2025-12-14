@@ -26,10 +26,10 @@ The application follows a clean separation of concerns with independent frontend
 
 ## 🧱 Project Structure
 
-sweet-shop-kata
-├── client # Frontend (React + Vite)
-├── server # Backend (Node.js + TypeScript)
-└── README.md
+- sweet-shop-kata
+- ├── client # Frontend (React + Vite)
+- ├── server # Backend (Node.js + TypeScript)
+- └── README.md
 
 
 
