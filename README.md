@@ -100,8 +100,6 @@ Test Results
 ✅ All test cases passed successfully
 ✅ Core functionality verified
 
-📸 Screenshots
-![b4bbad7f-b355-4276-ae9f-2c3f6706d79c](https://github.com/user-attachments/assets/7b076d24-889c-4d24-8528-3c924a0e07c2)
 
 
 🤖 My AI Usage
